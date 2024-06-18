@@ -1,3 +1,4 @@
+Просмотр на vercel: https://clean-brain-cw-node.vercel.app/home
 Сайт психологического центра Clean-Brain
 
 Приложение «Clean Brain», разработанное для психологического центра,
