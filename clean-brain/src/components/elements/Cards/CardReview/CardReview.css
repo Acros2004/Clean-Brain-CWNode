@@ -1,0 +1,49 @@
+.review-body-element{
+    position: relative;
+    background: rgba(62, 63, 63, 1);
+    border-radius: 60px;
+    height: 170px;
+    width: 70%;
+    margin-top: 20px;
+}
+.review-element-header-block{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-left: 200px;
+    align-items: center;
+}
+.review-element-header-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+.review-element-icon{
+    display: block;
+    height: 148px;
+    width: 148px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    left: 20px;
+}
+.review-element-main-block{
+    display: flex;
+    justify-content: right;
+}
+.review-element-main-text{
+    margin-right: 40px;
+    width: 413px;
+    font-size: 14px;
+    font-weight:lighter;
+    color: white;
+    word-wrap: break-word;
+}
+.review-delete-botton{
+    position: absolute;
+    width: 50px;
+    top: 5px;
+    right: 20px;
+}

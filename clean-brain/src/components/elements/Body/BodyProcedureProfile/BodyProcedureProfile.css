@@ -1,0 +1,184 @@
+.container-procedure-profile-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-procedure-profile-wrapper{
+    display: flex;
+    margin-top: 25px;
+    width: 870px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 68vh;
+    margin-bottom: 6px;
+}
+.block-procedure-profile{
+    display: flex;
+    width: 100%;
+    background: rgba(62, 63, 63, 1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.back-arrow-procedure-profile{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.left-side-procedure-profile{
+    display: flex;
+    width: 37%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgba(95, 104, 108, 1);
+}
+.image-procedure-profile{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.specification-procedure-profile, .procedure-price-profile{
+    font-size: 22px;
+    font-weight:lighter;
+    color: white;
+    margin-bottom: 5px;
+}
+.procedure-price-profile{
+    margin: 10px 0 7px 0;
+}
+.procedure-price-input-block > input{
+    background: rgba(184, 193, 201, 1);
+    width: 90px;
+    height: 5px;
+    color: black;
+}
+.procedure-price-input-block > input::placeholder{
+    color: gray;
+}
+.procedure-price-input-block{
+    margin-bottom: 5px;
+}
+.right-side-procedure-profile{
+    display: flex;
+    width: 63%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.titel-procedure-profile{
+    font-size: 26px;
+    font-weight:lighter;
+    color: white;
+    margin: 0 20px 0 0;
+}
+
+.titel-procedure-profile-block{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 30px 0;
+    
+}
+.titel-procedure-input-block > input{
+    margin-top: 5px;
+    background: rgba(184, 193, 201, 1);
+    width: 260px;
+    height: 5px;
+    font-size: 17px;
+    color: black;
+}
+.titel-procedure-input-block > input::placeholder{
+    color: gray;
+}
+.description-block-body-procedure-profile{
+    display: flex;
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.description-header-procedure-profile{
+    font-size: 22px;
+    font-weight:lighter;
+    color: white;
+    margin: 10px;
+}
+.description-area-procedure-profile{
+    color: black;
+    background: rgba(184, 193, 201, 1);
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: lighter;
+    min-height: 120px;
+    min-width: 430px;
+    resize: none;
+}
+.botton-block-procedure-profile{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-botton-procedure-profile{
+    width: 200px;
+    height: 55px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.delete-botton-procedure-profile{
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    background: rgb(204, 59, 37);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.save-botton-procedure-profile{
+    margin-left: 130px;
+    width: 200px;
+    height: 55px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.input-box .warning-procedure{
+    color: red;
+}
+.warning-procedure{
+    color: red;
+}
+.error-mesage-procedure-profile{
+    color:red;
+}

@@ -1,0 +1,231 @@
+.container-psychologist-profile-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-psychologist-profile-wrapper{
+    display: flex;
+    margin-top: 25px;
+    width: 900px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 68vh;
+    margin-bottom: 6px;
+}
+.block-psychologist-profile{
+    display: flex;
+    width: 100%;
+    background: rgba(62, 63, 63, 1);
+    border-radius: 20px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;
+}
+.header-psychologist-profile{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+    border-bottom: 1px solid rgba(95, 104, 108, 1);
+
+}
+.back-arrow-psychologist-profile{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.image-psychologist-container-profile{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.image-psychologist-profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name-psychologist-profile-block{
+    display: flex;
+    height: 100%;
+    align-items: end;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.name-psychologist-profile{
+    font-size: 16px;
+    font-weight:400;
+    color: white;
+    margin-right: 20px;
+}
+.psychologist-profile-input-block > input{
+    background: rgba(184, 193, 201, 1);
+    color: black;
+}
+.psychologist-profile-input-block > input::placeholder{
+    color: gray;
+}
+.body-psychologist-profile{
+    display: flex;
+    width: 100%;
+}
+.left-side-body-psychologist-profile{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    border-right: 1px solid rgba(95, 104, 108, 1);
+    border-bottom: 1px solid rgba(95, 104, 108, 1);
+}
+.academic-degree-psychologist-profile{
+    margin-top: 30px;
+}
+.timetable-psychologist-profile-header,.academic-degree-psychologist-profile,.experience-degree-psychologist-profile, .specification-degree-psychologist-profile{
+    font-size: 18px;
+    font-weight:lighter;
+    color: white;
+    margin-bottom: 7px;
+}
+.experience-degree-psychologist-profile,.specification-degree-psychologist-profile{
+    margin-top: 25px;
+}
+.psychologist-experience-input-block > input{
+    background: rgba(184, 193, 201, 1);
+    width: 50px;
+    height: 5px;
+    color: black;
+}
+.psychologist-experience-input-block > input::placeholder{
+    color: gray;
+}
+.psychologist-experience-input-block{
+    margin-bottom: 5px;
+}
+.right-side-body-psychologist-profile{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(95, 104, 108, 1);
+}
+.timetable-psychologist-profile-header-block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timetable-psychologist-profile-element{
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+.nameday-timetable-element{
+    width: 110px;
+    margin-right: 10px;
+}
+.endtime-timetable-element{
+    margin:0 20px 0 20px;
+}
+.nameday-timetable-element,.endtime-timetable-element{
+    font-size: 16px;
+    font-weight:lighter;
+    color: white;
+}
+.description-block-body-psychologist-profile{
+    display: flex;
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    flex-direction: column;
+}
+.description-header-psychologist-profile{
+    font-size: 22px;
+    font-weight:lighter;
+    color: white;
+    margin: 10px;
+}
+.description-area-psychologist-profile{
+    color: black;
+    background: rgba(184, 193, 201, 1);
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: lighter;
+    min-height: 120px;
+    min-width: 500px;
+    resize: none;
+}
+.botton-block-psychologist-profile{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.save-botton-psychologist-profile{
+    margin-left: 30px;
+    width: 200px;
+    height: 55px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.create-botton-psychologist{
+    margin-left:350px
+}
+.delete-botton-psychologist-profile{
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    background: rgb(204, 59, 37);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.create-vouncher-botton-psychologist-profile{
+    margin-left: 220px;
+    width: 100px;
+    height: 40px;
+    background: rgb(208, 202, 37);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.input-box .warning-psychologist{
+    color: red;
+}
+.warning-psychologist{
+    color: red;
+}
+.email-psychologist-profile-block{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 0 130px;
+    
+}
+.error-mesage-psychologist-profile{
+    color:red;
+}

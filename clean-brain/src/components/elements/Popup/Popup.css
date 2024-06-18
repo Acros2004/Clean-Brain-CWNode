@@ -1,0 +1,14 @@
+.popup-wrapper{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 11;
+    left: 0;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.popup-container{
+    padding: 20px;
+}

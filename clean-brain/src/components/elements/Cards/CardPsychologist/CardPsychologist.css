@@ -1,0 +1,45 @@
+.psychologist-body-element{
+    position: relative;
+    background: rgba(62, 63, 63, 1);
+    border-radius: 15px;
+    height: 250px;
+    width: 80%;
+    margin-top: 20px;
+}
+.body-element-header-block{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background:  url('../../../../images/backElement.jpg');
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    align-items: end;
+}
+.body-element-header-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 10px 255px;
+}
+.body-element-icon{
+    display: block;
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.body-element-main-block{
+    display: flex;
+    justify-content: right;
+}
+.body-element-main-text{
+    margin-right: 40px;
+    width: 450px;
+    font-size: 14px;
+    font-weight:lighter;
+    word-wrap: break-word;
+    color: white;
+}

@@ -1,0 +1,43 @@
+.procedure-search-block > input::placeholder{
+    color: gray;
+}
+.procedure-search-block{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.procedure-serch-specialization{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 260px;
+}
+.procedure-search-block > input{
+
+    background: rgba(184, 193, 201, 1);
+    width: 138px;
+    height: 0px;
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.procedure-search-price-block > input::placeholder{
+    color: gray;
+}
+.procedure-search-price-block{
+    position: absolute;
+    top: 3px;
+    left: 170px;
+}
+.procedure-search-price-block > input{
+
+    background: rgba(184, 193, 201, 1);
+    width: 60px;
+    height: 0px;
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}

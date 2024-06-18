@@ -1,0 +1,16 @@
+.create-review-list{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    top: 10px;
+    right: 10px;
+}

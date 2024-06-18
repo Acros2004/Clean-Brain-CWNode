@@ -1,0 +1,33 @@
+.multiplySelect-block{
+    position: relative;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.multiplySelect-preview-block{
+    width: 120px;
+    height: 20px;
+    background: rgba(184, 193, 201, 1);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.multiplySelect-list-item-block{
+    width: 140px;
+    position: absolute;
+    overflow: auto;
+    max-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(166, 173, 180);
+    top: 45px;
+    z-index: 1;
+}
+.multiplySelect-item-block{
+    text-align: center;
+    margin: 5px;
+}
+.multiplySelect-item-block:hover{
+    color:aliceblue
+}

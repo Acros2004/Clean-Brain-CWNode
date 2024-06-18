@@ -1,0 +1,76 @@
+.container-list-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container-list-wrapper{
+    display: flex;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    margin-top: 25px;
+    width: 940px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+    padding-bottom: 40px;
+}
+
+.title-list-body-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 30px;
+    width: 95%;
+    height: 50px;
+    background: rgba(81, 81, 81, 0.92);
+    
+}
+.title-list-body{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.create-psychologist-list{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    top: 10px;
+    right: 10px;
+}
+.psychologist-search-block > input{
+
+    background: rgba(184, 193, 201, 1);
+    width: 130px;
+    height: 0px;
+    font-size: 14px;
+    color: black;
+}
+.psychologist-search-block > input::placeholder{
+    color: gray;
+}
+.psychologist-search-block{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.psychologist-serch-specialization{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 210px;
+}

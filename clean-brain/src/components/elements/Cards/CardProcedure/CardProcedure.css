@@ -1,0 +1,55 @@
+.procedure-body-element{
+    position: relative;
+    background: rgba(62, 63, 63, 1);
+    border-radius: 15px;
+    height: 210px;
+    width: 80%;
+    margin-top: 20px;
+}
+.body-procedure-element-header-block{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    height: 65px;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+.body-procedure-element-header-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 10px 285px;
+}
+.body-procedure-element-main-block{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.body-procedure-element-main-text{
+    margin-right: 20px;
+    width: 440px;
+    font-size: 14px;
+    font-weight:lighter;
+    word-wrap: break-word;
+    color: white;
+}
+.body-procedure-element-icon{
+    width: 280px;
+    height: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    border-radius: 15px 0 0 15px;
+}
+.body-procedure-element-price{
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 170px;
+    left: 291px;
+}
+.body-procedure-element-price-text{
+    font-size: 16px;
+    font-weight:300px;
+    color: white;
+    margin: 0;
+}

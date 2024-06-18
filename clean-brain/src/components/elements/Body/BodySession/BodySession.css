@@ -1,0 +1,7 @@
+.session-list{
+    width: 93%;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    gap: 15px;
+}

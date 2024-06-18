@@ -1,0 +1,51 @@
+.booking-wrapper{
+    width: 400px;
+    background: rgba(62,63,63,1);
+    border-radius: 40px;
+    padding-bottom: 20px;
+}
+.booking-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.booking-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 0 0;
+}
+.booking-procedure-title, .booking-psychologist-title, .booking-date-title{
+    font-size: 22px;
+    font-weight: lighter;
+    color: white;
+    margin: 10px 0 0 0;
+    
+    border-bottom: 2px solid rgba(95, 104, 108, 1);
+}
+.booking-procedure-name{
+    font-weight: lighter;
+    color: white;
+    margin: 7px 0 0 0;
+}
+.booking-date-select{
+    padding-top: 7px;
+}
+.booking-create-block{
+    margin-top: 20px;
+}
+.booking-create-botton{
+    width: 200px;
+    height: 55px;
+    background: rgba(255, 206, 79, 1);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
